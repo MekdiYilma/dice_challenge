@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.player1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+}
+
+.dice {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.dice1 {
+  background-color: #ccfab1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.dice2 {
+  background-color: #ff4076;
+  place-items: center;
+  visibility: hidden;
+}
+
+.dice2circle2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.dice3 {
+  background-color: #fada16;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+  visibility: hidden;
+}
+
+.dice3circle2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.dice3circle3 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.dice4 {
+  background-color: #2987bf;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  visibility: hidden;
+}
+
+.dice5 {
+  background-color: #935eb2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+  visibility: hidden;
+}
+
+.dice5circle2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.dice5circle3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.dice5circle4 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.dice5circle5 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.dice6 {
+  background-color: #e05453;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+  visibility: hidden;
+}
